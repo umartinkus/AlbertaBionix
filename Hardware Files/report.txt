@@ -1,0 +1,45 @@
+Info: Processing symbol 'C1:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_Elec_3x5.4'.
+Info: Processing symbol 'D1:Diode_SMD:D_0201_0603Metric'.
+Info: Processing symbol 'D2:Diode_SMD:D_0201_0603Metric'.
+Info: Processing symbol 'D3:Diode_SMD:D_0201_0603Metric'.
+Info: Processing symbol 'D4:Diode_SMD:D_0201_0603Metric'.
+Info: Processing symbol 'J1:Connector_Card:microSD_HC_Wuerth_693072010801'.
+Info: Processing symbol 'J2:Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical'.
+Info: Processing symbol 'L1:Inductor_SMD:L_6.3x6.3_H3'.
+Info: Processing symbol 'L2:Inductor_SMD:L_6.3x6.3_H3'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'Rbot1:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'Rtop1:Resistor_SMD:R_0201_0603Metric'.
+Info: Processing symbol 'U1:LGA14L_LSM6_STM'.
+Info: Processing symbol 'U2:Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm'.
+Info: Processing symbol 'U4:Package_QFP:LQFP-64_10x10mm_P0.5mm'.
+Info: Processing symbol 'Y1:Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm'.
+Changed U1 footprint from 'imu:LGA14L_LSM6_STM' to 'LGA14L_LSM6_STM'.
+Error: J1 pad 10 not found in Connector_Card:microSD_HC_Wuerth_693072010801.
+Error: J2 pad 11 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+Error: J2 pad 7 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+Error: J2 pad 12 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+Error: J2 pad 8 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+Error: J2 pad 9 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+Error: J2 pad 10 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+Error: J2 pad 13 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+Error: J2 pad 14 not found in Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical.
+
+
+Info: Total warnings: 0, errors: 9.
