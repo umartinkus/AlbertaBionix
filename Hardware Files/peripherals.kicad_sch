@@ -498,6 +498,11 @@
   )
 
   (no_connect (at 96.52 22.86) (uuid 0a67d155-d593-4e83-9ca9-67af4e12e7ac))
+  (no_connect (at 62.23 111.76) (uuid 5a1f8742-0f34-4d87-b644-38faac053e07))
+  (no_connect (at 62.23 104.14) (uuid 6fb22aae-ddfe-4c30-a3ea-cb9a5b2f2328))
+  (no_connect (at 62.23 109.22) (uuid 9a3a144f-6d29-4e3a-92d5-7cddc0b26ca6))
+  (no_connect (at 139.7 22.86) (uuid d5a44892-403e-49a7-b111-e0f95cf56be6))
+  (no_connect (at 62.23 99.06) (uuid e8bce856-972c-4ba2-af37-72cf88fa6a9b))
 
   (wire (pts (xy 43.18 40.64) (xy 43.18 45.72))
     (stroke (width 0) (type default))

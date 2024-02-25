@@ -1007,6 +1007,10 @@
     (stroke (width 0) (type default))
     (uuid 9349bac8-2fac-4d22-9cc0-550c2040c4a1)
   )
+  (wire (pts (xy 256.54 76.2) (xy 261.62 76.2))
+    (stroke (width 0) (type default))
+    (uuid 950cf279-810d-46ec-81c9-499f7184418c)
+  )
   (wire (pts (xy 138.43 129.54) (xy 102.87 129.54))
     (stroke (width 0) (type default))
     (uuid 970bbf7d-f864-4d25-a853-6403c89fd97d)
@@ -1058,6 +1062,12 @@
   (wire (pts (xy 149.86 107.95) (xy 161.29 107.95))
     (stroke (width 0) (type default))
     (uuid ea951342-852b-4e63-a499-4bd32105fe93)
+  )
+
+  (text "Add no connection flags to pins that arent being used"
+    (at 12.7 99.06 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fc57372b-8ea7-4d4f-b504-f7b0fe9c855b)
   )
 
   (global_label "SDIO_D2" (shape input) (at 102.87 93.98 0) (fields_autoplaced)
@@ -1535,6 +1545,31 @@
       (project "MotionTracking"
         (path "/111120b9-36de-4e64-8ed5-7419f276010e"
           (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 261.62 76.2 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8be5fc34-760f-47e2-a14d-6bcd207e10e6)
+    (property "Reference" "#PWR023" (at 257.81 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 265.43 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 261.62 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 261.62 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7f72de0c-c773-4bb3-921b-26e726266839))
+    (instances
+      (project "MotionTracking"
+        (path "/111120b9-36de-4e64-8ed5-7419f276010e"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
